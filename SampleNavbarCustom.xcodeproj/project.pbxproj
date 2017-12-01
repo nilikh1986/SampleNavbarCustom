@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B343AD8C1FD200EE00B834F4 /* InspectableButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = B343AD8B1FD200EE00B834F4 /* InspectableButton.swift */; };
 		B396AA1D1FBF58D200DBEF15 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B396AA1C1FBF58D200DBEF15 /* AppDelegate.swift */; };
 		B396AA1F1FBF58D200DBEF15 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B396AA1E1FBF58D200DBEF15 /* ViewController.swift */; };
 		B396AA221FBF58D200DBEF15 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B396AA201FBF58D200DBEF15 /* Main.storyboard */; };
@@ -15,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B343AD8B1FD200EE00B834F4 /* InspectableButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InspectableButton.swift; sourceTree = "<group>"; };
 		B396AA191FBF58D200DBEF15 /* SampleNavbarCustom.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SampleNavbarCustom.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B396AA1C1FBF58D200DBEF15 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B396AA1E1FBF58D200DBEF15 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -35,6 +37,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B343AD8A1FD2009E00B834F4 /* IBDesignable */ = {
+			isa = PBXGroup;
+			children = (
+				B343AD8B1FD200EE00B834F4 /* InspectableButton.swift */,
+			);
+			path = IBDesignable;
+			sourceTree = "<group>";
+		};
 		B396AA101FBF58D200DBEF15 = {
 			isa = PBXGroup;
 			children = (
@@ -54,6 +64,7 @@
 		B396AA1B1FBF58D200DBEF15 /* SampleNavbarCustom */ = {
 			isa = PBXGroup;
 			children = (
+				B343AD8A1FD2009E00B834F4 /* IBDesignable */,
 				B396AA1C1FBF58D200DBEF15 /* AppDelegate.swift */,
 				B396AA1E1FBF58D200DBEF15 /* ViewController.swift */,
 				B396AA201FBF58D200DBEF15 /* Main.storyboard */,
@@ -136,6 +147,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B343AD8C1FD200EE00B834F4 /* InspectableButton.swift in Sources */,
 				B396AA1F1FBF58D200DBEF15 /* ViewController.swift in Sources */,
 				B396AA1D1FBF58D200DBEF15 /* AppDelegate.swift in Sources */,
 			);
